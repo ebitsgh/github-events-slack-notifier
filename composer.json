@@ -1,0 +1,21 @@
+{
+    "name": "brytey2k/github-events-slack-notifier",
+    "description": "Send github events that occur on github to your slack workspace",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\GithubEventsSlackNotifier\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bright Nkrumah",
+            "email": "brytey2k@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "guzzlehttp/guzzle": "^7.10",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
